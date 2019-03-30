@@ -1,0 +1,23 @@
+"""
+This program simulates a single transaction -
+either a deposit or a withdrawal - at a bank.
+"""
+
+# Write your program below...
+initial_balance = 1000
+while True:
+    question = input("deposit or withdrawal: ")
+    
+    if question == "withdrawal":
+        amount = int(input("Enter amount: "))
+        if amount > initial_balance:
+            print "You cannot have a negative balance!"
+        else:
+            initial_balance = initial_balance - amount
+    elif question == "deposit":
+        amount = int(input("Enter amount: "))
+        initial_balance = initial_balance + amount
+    else:
+        print "Invalid transaction."
+    print "Final balance:" + str(initial_balance)
+    
