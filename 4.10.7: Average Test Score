@@ -1,0 +1,7 @@
+# Your program below...
+total = 0
+for i in range (3):
+    next = int(input("How are your test scores?"))
+    total = total + next
+    average = total/3
+print "average:" + str(average)
