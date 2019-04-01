@@ -1,1 +1,0 @@
-codehs platformunun egzersizleri
