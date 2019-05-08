@@ -1,0 +1,8 @@
+length = "l"
+width = "w"
+l = 10
+w = 5
+Area=w*l
+Perimeter=2*(l+w)
+print "Area:" + str(Area)
+print "Perimeter:" + str(Perimeter)
