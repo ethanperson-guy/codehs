@@ -1,0 +1,9 @@
+def make_fencepost():
+    forward(10)
+    left(90)
+    forward(30)
+    backward(30)
+    right(90)
+    forward(10)
+for i in range(5):
+    make_fencepost()
