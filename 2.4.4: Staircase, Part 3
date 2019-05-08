@@ -1,0 +1,8 @@
+def draw_step():
+    left(90)
+    forward(30)
+    right(90)
+    forward(30)
+for i in range(4):
+    draw_step()
+left(90)
