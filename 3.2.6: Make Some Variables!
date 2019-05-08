@@ -1,0 +1,4 @@
+isim = "Enes"
+numara = 100
+print isim
+print numara
