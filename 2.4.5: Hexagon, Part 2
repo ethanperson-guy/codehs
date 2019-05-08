@@ -1,0 +1,6 @@
+def draw_edge():
+    forward(50)
+    left(60)
+    
+for i in range(6):
+    draw_edge()
