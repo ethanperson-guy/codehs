@@ -1,0 +1,1 @@
+# Write your program below... my_number = 1 while my_number != 11:     print my_number     my_number = my_number + 1
