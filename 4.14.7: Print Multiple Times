@@ -1,0 +1,5 @@
+# Your code here...
+def my_function(first, second):
+    for i in range(first):
+        print second
+my_function(4, "meraba")
