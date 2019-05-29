@@ -1,0 +1,14 @@
+"""
+This is a program that has a boolean variable that
+represents whether or not it is raining outside. 
+It prints "I'm going to eat lunch inside!" if it is 
+raining, and "I'm going to eat lunch outside!" if it 
+is not raining.
+"""
+
+# Your code here...
+rain = True
+if rain:
+    print "I am going to eat lunch inside!"
+else: 
+    print "I'm going to eat lunch outside!"
