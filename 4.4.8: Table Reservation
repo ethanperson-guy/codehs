@@ -1,0 +1,11 @@
+"""
+This program determines whether or not
+someone has a reservation in their name.
+"""
+
+# Write your program below...
+name = input("What is your name? ")
+if name == "Shonda":
+    print "Right this way!"
+else:
+    print "Sorry, we don't have a reservartion under that name."
