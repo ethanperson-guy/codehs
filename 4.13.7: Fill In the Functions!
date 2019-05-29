@@ -1,0 +1,55 @@
+def print_p():
+    # Change this function so that it prints
+    # the letter P!
+    print "*****"
+    print "*   *"
+    print "*****"
+    print "*    "
+    print "*    "
+print_p()
+
+def print_y():
+    print "*   *"
+    print " * * "
+    print "  *  "
+    print "  *  "
+    print "  *  "
+print_y()
+
+def print_t():
+    # Change this function so that it prints
+    # the letter T!
+    print "*****"
+    print "  *  "
+    print "  *  "
+    print "  *  "
+    print "  *  "
+print_t()
+
+def print_h():
+    print "*   *"
+    print "*   *"
+    print "*****"
+    print "*   *"
+    print "*   *"
+print_h()
+
+def print_o():
+    print " *** "
+    print "*   *"
+    print "*   *"
+    print "*   *"
+    print " *** "
+print_o()
+
+def print_n():
+    print "*   *"
+    print "**  *"
+    print "* * *"
+    print "*  **"
+    print "*   *"
+print_n()
+    
+# Now, call the functions in the right
+# order to spell PYTHON!
+
