@@ -1,0 +1,10 @@
+# Your code here...
+def retrieve_positive_number():
+    number = int(input("Enter a positive number: "))
+    if number > 0:
+        print "Well done!"
+    elif number < 0:
+        print "That is a negative number!"
+    elif number == 0:
+        print "Zero is not a positive number!"
+retrieve_positive_number()
