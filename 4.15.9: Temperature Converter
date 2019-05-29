@@ -1,0 +1,19 @@
+# Write your function for converting Celcius to Fahrenheit here.
+# Make sure to include a comment at the top that says what the
+# function does!
+
+
+# Now write your function for converting Fahrenheit to Celcius.
+# This should also have a comment at the top.
+
+
+# Now write some code that uses those functions here.
+
+def convert_fahreneit(f):
+    return (f - 32)/1.8
+def convert_celcius(c):
+    return (c*1.8) + 32
+print convert_celcius(0)
+print convert_fahreneit(0)
+
+    
