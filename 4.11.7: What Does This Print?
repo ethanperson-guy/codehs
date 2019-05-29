@@ -1,0 +1,10 @@
+# Can you predict what this program prints?
+#
+# What if you changed continue to break?
+
+for i in range(3):
+    if i == 2:
+        break
+    print i
+
+print 3
