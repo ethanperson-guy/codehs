@@ -1,0 +1,17 @@
+# Write your program below...
+def cat():
+    print" |\_/|"
+    print" 'o.o'"
+    print"=( _ )="
+cat()
+def dog():
+    print"   /)___      "
+    print"  /     O|___ "
+    print" /           )"
+    print"/       )___/ "
+dog()
+
+cat()
+dog()
+
+
