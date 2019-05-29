@@ -1,0 +1,11 @@
+# Your code here...
+num_category = 3
+within_category = 3
+empty_cell = ""
+for i in range(num_category):
+    name_of_category = input ("Enter a category: ")
+    empty_cell = ""
+    for j in range(within_category):
+        within_name = input ("Enter something in that category: ")
+    print within_name
+     
