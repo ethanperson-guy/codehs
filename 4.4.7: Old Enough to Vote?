@@ -1,0 +1,11 @@
+"""
+This program determines whether or not
+someone is old enough to vote in the U.S.
+"""
+
+# Write your program below...
+age = int(input("Age: "))
+if age >= 19:
+    print "You are old enough to vote!"
+else:
+    print "You are not old enough to vote."
