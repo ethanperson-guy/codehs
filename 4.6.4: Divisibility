@@ -1,0 +1,9 @@
+numerator = int(input("Enter a numerator: "))
+denominator = int(input("Enter denominator: "))
+
+# If denominator is 0, this will result in a division-
+# by-zero error!
+if denominator!= 0 and (numerator / denominator * denominator) == numerator:
+    print "Divides evenly!"
+else:
+    print "Doesn't divide evenly."
