@@ -1,0 +1,7 @@
+# Your code here...
+def fahreneit_converter(f):
+    return (f - 32) / 1.8
+def celcius_converter(c):
+    return (1.8 * c) + 32
+fahreneit_converter(4)
+celcius_converter(3)
